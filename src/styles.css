@@ -220,14 +220,18 @@ img {
 .story-number {
   background: #d20a0a;
   color: #fff;
-  width: 40px;
+  min-width: 40px;
   height: 40px;
+  padding: 0 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   flex-shrink: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .story-category {
