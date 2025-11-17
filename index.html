@@ -37,10 +37,10 @@
         <div class="hero-text">
           <p class="hero-label">BIOSPORT 6:  BERTRAND VS PROGER</p>
           <h1 class="hero-title">Vo2 Run</h1>
-          <p class="hero-subtitle">Go Behind The Scenes Of A Massive Fight Week In New York City</p>
+          <p class="hero-subtitle">Watch two runners break the record for the longest distance ever run with bio-enhancements.</p>
           <div class="hero-buttons">
             <button class="btn btn-primary">WATCH EVERY EPISODE</button>
-            <button class="btn btn-secondary">ORDER UFC 322</button>
+            <button class="btn btn-secondary" id="trailerBtn">WATCH THE TRAILER</button>
           </div>
         </div>
       </div>
@@ -209,6 +209,23 @@
       </article>
     </div>
   </section>
+
+  <!-- Trailer Modal -->
+  <div id="trailerModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <div class="video-container">
+        <iframe 
+          id="trailerVideo"
+          src="https://www.youtube.com/embed/kKBcE9rXpyY?enablejsapi=1" 
+          title="BioSports Trailer" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="footer">
