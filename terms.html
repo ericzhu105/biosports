@@ -16,10 +16,12 @@
         <a href="/#recent-news" class="nav-link">NEWS</a>
       </div>
       <div class="nav-logo">
-        <img src="/BioSports.png" alt="BioSports" height="100px" width="200px" />
+        <a href="/">
+          <img src="/BioSports.png" alt="BioSports" height="100px" width="200px" />
+        </a>
       </div>
       <div class="nav-right">
-        <a href="/#notifyBtn" class="nav-link">GET NOTIFIED</a>
+        <button id="notifyBtn" class="nav-link nav-link-button" type="button">GET NOTIFIED</button>
       </div>
     </div>
   </nav>
@@ -153,7 +155,7 @@
         If you have questions about these Terms, you can reach us at:
       </p>
       <p>
-        <strong>Email:</strong> legal@biosports.example<br />
+        <strong>Email:</strong> legal@biomarkersports.com<br />
         <strong>Subject line:</strong> “BioSports Terms and Conditions”
       </p>
 
@@ -163,6 +165,36 @@
       </p>
     </article>
   </main>
+
+  <!-- Notify Me Modal -->
+  <div id="notifyModal" class="modal">
+    <div class="modal-content modal-content-small">
+      <span class="modal-close">&times;</span>
+      <div class="notify-body">
+        <h2 class="notify-title">Get notified when episodes drop</h2>
+        <p class="notify-text">Enter your email and we'll let you know as soon as the full series is live.</p>
+        <form
+          id="notifyForm"
+          class="notify-form"
+          action="https://getform.io/f/bxozmvra"
+          method="POST"
+          target="_blank"
+        >
+          <input
+            type="email"
+            id="notifyEmail"
+            name="email"
+            class="notify-input"
+            placeholder="you@biomarkersports.com"
+            required
+          />
+          <input type="hidden" name="_gotcha" style="display:none !important" />
+          <button type="submit" class="btn btn-primary notify-submit">Notify Me</button>
+        </form>
+        <p class="notify-message" id="notifyMessage"></p>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="footer">
@@ -185,7 +217,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 BioSports. All rights reserved.</p>
+      <p>&copy; 2025 CABAL TRADE INC. All rights reserved.</p>
     </div>
   </footer>
 

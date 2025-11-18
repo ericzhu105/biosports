@@ -16,10 +16,12 @@
         <a href="/#recent-news" class="nav-link">NEWS</a>
       </div>
       <div class="nav-logo">
-        <img src="/BioSports.png" alt="BioSports" height="100px" width="200px" />
+        <a href="/">
+          <img src="/BioSports.png" alt="BioSports" height="100px" width="200px" />
+        </a>
       </div>
       <div class="nav-right">
-        <a href="/#notifyBtn" class="nav-link">GET NOTIFIED</a>
+        <button id="notifyBtn" class="nav-link nav-link-button" type="button">GET NOTIFIED</button>
       </div>
     </div>
   </nav>
@@ -49,100 +51,139 @@
   <main class="article-main">
     <article class="article-body">
       <p class="article-lede">
-        VO2 run events take a simple idea—run as fast as you can for as long as you can—and wire it directly into
-        physiology. Instead of only counting finish times, we start asking a deeper question: how hard can you run
-        while still staying inside a smart, sustainable engine?
+        VO2 Run is a simple sport to watch and a hard sport to do. Runners cycle between hard efforts and short
+        "breathers" that are built into the race. The goal is not just to hold speed. The goal is to see who can bring
+        their heart rate back under control and then push again.
       </p>
 
-      <h2>What VO2 Max Actually Means on the Track</h2>
+      <h2>What VO2 Max Means When It Becomes a Sport</h2>
       <p>
-        VO2 max is often described as “your engine size”—the maximum rate at which your body can use oxygen during
-        intense exercise. On a lab sheet it’s a number with decimals and units. On the track, it’s the difference
-        between hanging on and breaking away.
+        VO2 max describes how much oxygen your body can use when you are working at your limit. In a lab it looks like a
+        chart and a mask. In VO2 Run it looks like an athlete deciding how fast they can go before they need a breather
+        zone to reset.
       </p>
       <p>
-        When we talk about “maxing VO2” in a BioSports context, we’re not chasing a single brutal test and then
-        walking away. We’re interested in how well that engine shows up when it counts: late in a race, with pace
-        surging and decisions to make.
+        Instead of one long all out test, VO2 Run spreads the effort across rounds of work and recovery. Each time a
+        runner hits a breather, we can see how quickly their heart rate drops and how stable their breathing becomes
+        before the next surge. The athletes who manage that cycle best usually move up the board.
       </p>
 
-      <h2>Why VO2-Focused Training Is Good for Runners</h2>
+      <h2>Breathers: The Heart of the Format</h2>
       <p>
-        For runners, leaning into VO2-focused work can be one of the most efficient ways to level up. Done right, it
-        improves performance and durability at the same time:
+        Every VO2 Run race is divided into push segments and breather segments. Push segments feel like a long rep on
+        the track. Breathers are controlled seconds of easier running where the goal is to bring the system back down
+        without fully shutting it off.
+      </p>
+      <p>
+        On screen you can see it happen. Heart rate climbs during the push, then levels off or drops during the
+        breather. The time in each zone is scored, and the cleanest heart rate pattern over the whole race usually wins.
+      </p>
+
+      <h2>Why This Is Good Training for Runners</h2>
+      <p>
+        This format matches how smart runners already train. They use hard intervals to touch high effort and breathers
+        to teach the heart how to recover without walking. VO2 Run turns that pattern into something you can compete in
+        and follow live:
       </p>
       <ul class="article-list">
-        <li><strong>Higher sustainable race pace.</strong> A stronger engine lets you run faster at the same effort.</li>
-        <li><strong>Better response to surges.</strong> When the pack throws in a move, high VO2 capacity helps you respond without falling apart.</li>
-        <li><strong>More headroom for tactics.</strong> With breathing and heart rate under control, you can think clearly when everyone else is redlining.</li>
-        <li><strong>Deeper training toolbox.</strong> VO2 sessions unlock smart variations—short intervals, broken reps, float recoveries—that keep progress coming without mindless grinding.</li>
+        <li><strong>Higher steady pace.</strong> A stronger aerobic engine lets you stay faster while breathing stays under control.</li>
+        <li><strong>Better response to moves.</strong> When someone surges, a trained heart can handle the spike and drop back down during the next breather.</li>
+        <li><strong>Clearer decisions.</strong> When breathing is organized instead of panicked, it is easier to choose when to cover a move and when to wait.</li>
+        <li><strong>Repeatable races.</strong> Work plus breathers builds a runner who can race hard more often instead of needing weeks to recover.</li>
       </ul>
 
       <figure class="article-figure">
         <img
           src="https://www.whyiexercise.com/images/xVO2-max-chart-for-men-by-age-group.jpg.pagespeed.ic.3hgm43Rk28.jpg"
-          alt="Athletes running intervals on a track with a coach timing"
+          alt="Simple VO2 max chart showing how aerobic capacity changes by age"
         />
         <figcaption>
-          VO2-centered sessions aren’t just about suffering—they’re about learning exactly where your engine is strong
+          VO2 style sessions are not just about suffering. They help athletes see exactly where their engine is strong
           and where it needs work.
         </figcaption>
       </figure>
 
       <h2>Inside a VO2 Run Session</h2>
       <p>
-        A typical VO2 run session in the BioSports 322 build isn’t just “run hard for a while.” Each block is designed
-        to sit near the upper edge of your engine without randomly blasting past it.
+        A VO2 Run session in the BioSports 322 build looks a lot like the race itself. There is time to push and time to
+        breathe, and both pieces matter. The idea is to visit high effort often enough to grow the engine and to use the
+        breathers to train how the heart comes back down.
       </p>
       <p>
-        A sample structure:
+        A simple version might look like this:
       </p>
       <ul class="article-list">
-        <li>Warm-up with easy running, drills, and a few controlled strides.</li>
-        <li>Multiple short intervals at or slightly above race pace with short, measured recoveries.</li>
-        <li>Float segments where runners keep moving instead of fully stopping, training the ability to recover at speed.</li>
-        <li>Cool-down with easy laps and breathing work so the session lands clean instead of chaotic.</li>
+        <li>Warm up with easy running, drills, and a few progressive strides.</li>
+        <li>Run short segments at or just above race pace while heart rate climbs.</li>
+        <li>Use breathers of relaxed but continuous running to bring heart rate down without stopping.</li>
+        <li>Finish with easy laps and simple breathing drills so the system settles back to normal.</li>
       </ul>
       <p>
-        The goal isn’t to “win” the workout. It’s to spend time at intensities where VO2 adaptations happen while still
-        respecting the rest of the training week.
+        The goal is not to win the workout. The goal is to collect a lot of quality minutes near VO2 while still
+        protecting the rest of the training week.
       </p>
 
       <h2>How BioSports Turns VO2 Into a Game</h2>
       <p>
-        On a VO2 run broadcast, you’re not just watching splits and finish times. You’re watching the whole engine at
-        work. Pace lines, heart rate response, recovery segments, and late-race resilience all become part of the
-        storyline.
+        On a VO2 Run broadcast you are not only watching lap splits. You are watching how each athlete uses their
+        breathers. Heart rate, pace, and time spent in each zone show who is in control and who is just hanging on.
       </p>
       <p>
-        That’s the bigger idea behind BioSports: if you can measure it, you can make it part of the competition. In a
-        VO2 run, that means rewarding the athletes who can hold smart, aggressive efforts while keeping their systems
-        under control—not just the ones who sprint the last 200 meters.
+        That is the core idea behind BioSports. If you can measure a part of performance, you can make it part of the
+        scoring. In VO2 Run we highlight the runners who can push hard, drop their heart rate in the breather, and then
+        push again with the same quality, not only the ones with the loudest kick.
       </p>
 
       <figure class="article-figure">
-        <img
-          src="https://i.ytimg.com/vi/G7b28Vm9-O0/maxresdefault.jpg"
-          alt="Runner alone on a track under lights, pushing the final meters"
-        />
+
         <figcaption>
-          Late in a VO2 run, the race is about who can keep their engine online when the lights get brightest.
+          Late in a VO2 Run the race is about who can use each breather to reset and then hit the next push with a clean
+          rhythm.
         </figcaption>
       </figure>
 
       <h2>Why This Matters Beyond One Race</h2>
       <p>
-        VO2-focused running doesn’t just produce sharper race-day highlights. It builds a more complete runner—one who
-        understands effort, pacing, and recovery at a deeper level. That’s the kind of athlete who can stack seasons,
-        not just random PR days.
+        VO2 focused running does more than create sharp race clips. It builds runners who understand how to move between
+        stress and recovery on purpose. Over time that skill keeps training on track and keeps big efforts from turning
+        into crashes.
       </p>
       <p class="article-outro">
-        As BioSports 322 approaches, VO2 run coverage is less about showing off one brutal workout and more about
-        telling the story of how an engine is built. The better we get at showing that story, the easier it becomes for
-        anyone watching to see their own training as a game worth playing.
+        As BioSports 322 gets closer, VO2 Run is our way of showing how this looks in real time. Work, breather, work,
+        breather. A sport that teaches athletes and viewers what it means to train the heart, not just chase the clock.
       </p>
     </article>
   </main>
+
+  <!-- Notify Me Modal -->
+  <div id="notifyModal" class="modal">
+    <div class="modal-content modal-content-small">
+      <span class="modal-close">&times;</span>
+      <div class="notify-body">
+        <h2 class="notify-title">Get notified when episodes drop</h2>
+        <p class="notify-text">Enter your email and we'll let you know as soon as the full series is live.</p>
+        <form
+          id="notifyForm"
+          class="notify-form"
+          action="https://getform.io/f/bxozmvra"
+          method="POST"
+          target="_blank"
+        >
+          <input
+            type="email"
+            id="notifyEmail"
+            name="email"
+            class="notify-input"
+            placeholder="you@biomarkersports.com"
+            required
+          />
+          <input type="hidden" name="_gotcha" style="display:none !important" />
+          <button type="submit" class="btn btn-primary notify-submit">Notify Me</button>
+        </form>
+        <p class="notify-message" id="notifyMessage"></p>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="footer">
@@ -165,7 +206,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 BioSports. All rights reserved.</p>
+      <p>&copy; 2025 CABAL TRADE INC. All rights reserved.</p>
     </div>
   </footer>
 
