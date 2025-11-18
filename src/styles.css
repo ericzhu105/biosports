@@ -78,6 +78,27 @@ img {
   flex: 0 0 auto;
 }
 
+/* Announcement Banner */
+.announcement-banner {
+  background: linear-gradient(90deg, #d20a0a, #ff5a3c);
+  color: #fff;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.announcement-banner a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.announcement-banner a:hover {
+  text-decoration: none;
+}
+
 /* Hero Section */
 .hero {
   background: #0a0a0a;
